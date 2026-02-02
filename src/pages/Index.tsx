@@ -6,12 +6,12 @@ import LoveButton from '@/components/LoveButton';
 import PhotoModal from '@/components/PhotoModal';
 
 // Import all photos
-import mainPhoto from '@/assets/main-photo.jpg';
-import photo1 from '@/assets/photo-1.jpg';
-import photo2 from '@/assets/photo-2.jpg';
-import photo3 from '@/assets/photo-3.jpg';
-import photo4 from '@/assets/photo-4.jpg';
-import photo5 from '@/assets/photo-5.jpg';
+import mainPhoto from '@/assets/sharu2.png';
+import photo1 from '@/assets/images.jpg';
+import photo2 from '@/assets/sharu - Copy.png';
+import photo3 from '@/assets/sharu3.png';
+import photo4 from '@/assets/sharu4.png';
+import photo5 from '@/assets/sharu1.png';
 
 interface PhotoData {
   url: string;
@@ -19,11 +19,11 @@ interface PhotoData {
 }
 
 const lovePhotos: PhotoData[] = [
-  { url: photo1, message: "Your smile lights up my world ✨" },
+  { url: photo5, message: "Your smile lights up and its like a calling bell✨" },
   { url: photo2, message: "You're more precious than gold 💫" },
   { url: photo3, message: "Every moment with you is magical 📖" },
   { url: photo4, message: "You make my heart dance 💃" },
-  { url: photo5, message: "Forever grateful for you 🌹" },
+  { url: photo1, message: " pore  pothe🌹" },
 ];
 
 const Index = () => {
@@ -56,11 +56,11 @@ const Index = () => {
         
         {/* Title */}
         <h1 className="text-5xl md:text-7xl text-primary mb-2 drop-shadow-lg animate-in fade-in slide-in-from-top duration-1000">
-          Happy Valentine's Day
+          Happy Valentine's Day 
         </h1>
         
         <p className="text-lg md:text-xl text-muted-foreground mb-8 animate-in fade-in duration-1000 delay-300">
-          To Someone Special ❤️
+          Sharu ❤️
         </p>
         
         {/* Main Photo */}

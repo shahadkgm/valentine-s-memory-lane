@@ -20,7 +20,7 @@ const PhotoModal = ({ isOpen, onClose, photoUrl, message }: PhotoModalProps) => 
         className={cn(
           "relative max-w-lg w-full bg-card rounded-3xl overflow-hidden shadow-2xl",
           "transform transition-all duration-500 ease-out",
-          "animate-in fade-in zoom-in-95"
+          "animate-in fade-in zoom-in-95 "
         )}
         onClick={e => e.stopPropagation()}
       >
@@ -35,7 +35,7 @@ const PhotoModal = ({ isOpen, onClose, photoUrl, message }: PhotoModalProps) => 
           <img
             src={photoUrl}
             alt="Special moment"
-            className="w-full h-80 object-cover"
+            className="w-full h-80 object-cover object-top"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
         </div>
