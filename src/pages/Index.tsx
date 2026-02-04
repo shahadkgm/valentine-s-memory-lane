@@ -7,9 +7,9 @@ import PhotoModal from '@/components/PhotoModal';
 
 // Import all photos
 import mainPhoto from '@/assets/sharu2.png';
-import photo1 from '@/assets/images.jpg';
+import photo1 from '@/assets/poth.jfif';
 import photo2 from '@/assets/sharu - Copy.png';
-import photo3 from '@/assets/sharu3.png';
+import photo3 from '@/assets/Screenshot_20251127-205421_Chrome (1).png';
 import photo4 from '@/assets/sharu4.png';
 import photo5 from '@/assets/sharu1.png';
 
@@ -19,11 +19,11 @@ interface PhotoData {
 }
 
 const lovePhotos: PhotoData[] = [
-  { url: photo5, message: "Your smile lights up and its like a calling bell✨" },
-  { url: photo2, message: "You're more precious than gold 💫" },
-  { url: photo3, message: "Every moment with you is magical 📖" },
-  { url: photo4, message: "You make my heart dance 💃" },
-  { url: photo1, message: " pore  pothe🌹" },
+  { url: photo5, message: "heey shaaru,your smile is very beutiful,so dont forget to smile✨" },
+  { url: photo2, message: "You're more precious than gold,Nb:ante ummakkm upppaakm so be happy☺️ 💫" },
+  { url: photo3, message: "I value every single moment with you shaaru 📖" },
+{ url: photo4, message: "All the things about you make you who you are, and it's all beautiful. ellom angne nne nikkanm and thats you 💃" },
+  { url: photo1, message: " pinne eee paripaadi okke inki aadhyayitta, ank ishtapedunn vijaarikkinn, pore  pothe🌹" },
 ];
 
 const Index = () => {
@@ -85,7 +85,7 @@ const Index = () => {
         {/* Love Message */}
         <div className="text-center mb-10 max-w-md animate-in fade-in duration-1000 delay-700">
           <p className="text-lg md:text-xl text-foreground leading-relaxed">
-            "Click the hearts below to see beautiful moments that remind me of you..."
+            " eeey shaaaru njn idh vare aarkkum idh poone kodtheella you are the first one ..."
           </p>
         </div>
         
