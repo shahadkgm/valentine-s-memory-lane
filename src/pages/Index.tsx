@@ -36,11 +36,11 @@ const Index = () => {
   };
 
   const loveButtons = [
-    { icon: Heart, variant: 'primary' as const, label: 'Love' },
-    { icon: Sparkles, variant: 'gold' as const, label: 'Sparkle' },
-    { icon: Stars, variant: 'rose' as const, label: 'Stars' },
-    { icon: Flower2, variant: 'primary' as const, label: 'Rose' },
-    { icon: Gift, variant: 'gold' as const, label: 'Gift' },
+    { icon: Heart, variant: 'primary' as const, label: '' },
+    { icon: Heart, variant: 'primary' as const, label: '' },
+    { icon: Heart, variant: 'primary' as const, label: '' },
+    { icon: Heart, variant: 'primary' as const, label: '' },
+    { icon: Heart, variant: 'primary' as const, label: '' },
   ];
 
   return (
