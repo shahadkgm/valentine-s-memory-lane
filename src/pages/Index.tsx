@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Heart, Sparkles, Stars, Flower2, Gift } from 'lucide-react';
+import { Heart, Sparkles, ChevronDown } from 'lucide-react';
 import FloatingHearts from '@/components/FloatingHearts';
 import MusicPlayer from '@/components/MusicPlayer';
 import LoveButton from '@/components/LoveButton';
@@ -22,7 +22,7 @@ const lovePhotos: PhotoData[] = [
   { url: photo5, message: "heey shaaru,your smile is very beutiful,so dont forget to smile✨" },
   { url: photo2, message: "You're more precious than gold,Nb:ante ummakkm upppaakm so be happy☺️ 💫" },
   { url: photo3, message: "I value every single moment with you shaaru 📖" },
-{ url: photo4, message: "All the things about you make you who you are, and it's all beautiful. ellom angne nne nikkanm and thats you 💃" },
+  { url: photo4, message: "All the things about you make you who you are, and it's all beautiful. ellom angne nne nikkanm and thats you 💃" },
   { url: photo1, message: " pinne eee paripaadi okke inki aadhyayitta, ank ishtapedunn vijaarikkinn, pore  pothe🌹" },
 ];
 
@@ -44,15 +44,13 @@ const Index = () => {
   ];
 
   return (
-    <div className="min-h-screen romantic-bg overflow-hidden relative">
-      {/* Floating Hearts Background */}
+    <div className="h-screen overflow-y-auto overflow-x-hidden snap-y snap-mandatory scroll-smooth romantic-bg">
+      {/* Fixed Elements */}
       <FloatingHearts />
-      
-      {/* Music Player */}
       <MusicPlayer />
-      
-      {/* Main Content */}
-      <div className="relative z-20 flex flex-col items-center justify-center min-h-screen px-4 py-8">
+
+      {/* --- PAGE 1: MAIN CONTENT --- */}
+      <section className="relative z-20 flex flex-col items-center justify-center min-h-screen px-4 py-8 snap-start">
         
         {/* Title */}
         <h1 className="text-5xl md:text-7xl text-primary mb-2 drop-shadow-lg animate-in fade-in slide-in-from-top duration-1000">
@@ -109,9 +107,6 @@ const Index = () => {
                     className={`text-white ${button.icon === Heart ? 'fill-white' : ''}`} 
                   />
                 </LoveButton>
-                <span className="text-sm text-muted-foreground font-medium">
-                  {button.label}
-                </span>
               </div>
             );
           })}
@@ -130,12 +125,107 @@ const Index = () => {
             />
           ))}
         </div>
+
+        {/* Scroll Indicator */}
+        <div className="absolute bottom-6 flex flex-col items-center animate-bounce text-primary/60">
+          <p className="text-xs font-medium uppercase tracking-widest mb-1">Scroll Down</p>
+          <ChevronDown size={24} />
+        </div>
+      </section>
+
+      {/* --- PAGE2 : FULL SIZE IMAGE SURPRISE --- */}
+      <section className="relative h-screen w-full snap-start overflow-hidden bg-black flex items-center justify-center">
+        {/* Background Full Image */}
+        <img 
+          src={photo5} 
+          alt="Full Size Surprise" 
+          className="absolute inset-0 w-full h-full object-cover opacity-70 transition-transform duration-[2000ms] hover:scale-105"
+        />
         
-        {/* Footer Message */}
-        <p className="mt-8 text-muted-foreground text-sm">
-          Made with 💕 for you
-        </p>
-      </div>
+        {/* Overlay Text */}
+        <div className="relative z-10 text-center px-4 max-w-2xl">
+          <h2 className="text-4xl md:text-6xl text-white font-serif italic mb-4 drop-shadow-2xl">
+            Forever & Always
+          </h2>
+          <div className="w-24 h-1 bg-primary mx-auto mb-6 rounded-full" />
+          <p className="text-white/90 text-lg md:text-xl leading-relaxed drop-shadow-md">
+           "Life’s a lot easier when you have a friend like you to share it with. Thanks for the endless laughs and for always matching my energy, no matter how chaotic things get!"
+          </p>
+        </div>
+
+        {/* Gradient Overlay for better text readability */}
+        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/40 pointer-events-none" />
+      </section>
+       {/* --- PAGE 3: FULL SIZE IMAGE SURPRISE --- */}
+      <section className="relative h-screen w-full snap-start overflow-hidden bg-black flex items-center justify-center">
+        {/* Background Full Image */}
+        <img 
+          src={photo2} 
+          alt="Full Size Surprise" 
+          className="absolute inset-0 w-full h-full object-cover opacity-70 transition-transform duration-[2000ms] hover:scale-105"
+        />
+        
+        {/* Overlay Text */}
+        <div className="relative z-10 text-center px-4 max-w-2xl">
+          <h2 className="text-4xl md:text-6xl text-white font-serif italic mb-4 drop-shadow-2xl">
+             One  & Only
+          </h2>
+          <div className="w-24 h-1 bg-primary mx-auto mb-6 rounded-full" />
+          <p className="text-white/90 text-lg md:text-xl leading-relaxed drop-shadow-md">
+            "From all the random laughs to the deep talks, there’s never a dull moment with you. 
+  Thanks for being the one I can always count on for a good time and even better memories."
+          </p>
+        </div>
+
+        {/* Gradient Overlay for better text readability */}
+        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/40 pointer-events-none" />
+      </section>
+       
+      {/* last */}
+       {/* <section className="relative h-screen w-full snap-start overflow-hidden bg-black flex items-center justify-center">
+        <img 
+          src={photo4} 
+          alt="Full Size Surprise" 
+          className="absolute inset-0 w-full h-full object-cover opacity-70 transition-transform duration-[2000ms] hover:scale-105"
+        />
+        
+        <div className="relative z-10 text-center px-4 max-w-2xl">
+          <h2 className="text-4xl md:text-6xl text-white font-serif italic mb-4 drop-shadow-2xl">
+           Through Thick & Thin
+          </h2>
+          <div className="w-24 h-1 bg-primary mx-auto mb-6 rounded-full" />
+          <p className="text-white/90 text-lg md:text-xl leading-relaxed drop-shadow-md">
+            "They say good friends are hard to find, but I clearly hit the jackpot. 
+  Thanks for being the most genuine person I know and for always keeping it real with me."
+          </p>
+        </div>
+
+        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/40 pointer-events-none" />
+      </section> */}
+       <section className="relative h-screen w-full snap-start overflow-hidden bg-black flex items-center justify-center">
+        {/* Background Full Image */}
+        <img 
+          src={photo3} 
+          alt="Full Size Surprise" 
+          className="absolute inset-0 w-full h-f object-cover opacity-70 transition-transform duration-[2000ms] hover:scale-105 "
+        />
+        
+        {/* Overlay Text */}
+        <div className="relative z-10 text-center px-4 max-w-2xl">
+          <h2 className="text-4xl md:text-6xl text-white font-serif italic mb-4 drop-shadow-2xl">
+            appo❤️ bye
+          </h2>
+          <div className="w-24 h-1 bg-primary mx-auto mb-6 rounded-full" />
+          <p className="text-white/90 text-lg md:text-xl leading-relaxed drop-shadow-md">
+             "They say good friends are hard to find, but you clearly hit the jackpot. 
+  Thanks for being the most genuine person I know and for always keeping it real with me."
+          
+          </p>
+        </div>
+
+        {/* Gradient Overlay for better text readability */}
+        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/40 pointer-events-none" />
+      </section>
       
       {/* Photo Modal */}
       <PhotoModal
