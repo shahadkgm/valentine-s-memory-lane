@@ -207,7 +207,7 @@ const Index = () => {
         <img 
           src={photo3} 
           alt="Full Size Surprise" 
-          className="absolute inset-0 w-full h-f object-cover opacity-70 transition-transform duration-[2000ms] hover:scale-105 "
+          className="absolute inset-0 w-full h-full object-cover opacity-70 transition-transform duration-[2000ms] hover:scale-105 "
         />
         
         {/* Overlay Text */}
