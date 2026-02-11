@@ -21,7 +21,7 @@ interface PhotoData {
 const lovePhotos: PhotoData[] = [
   { url: photo5, message: "heey shaaru,your smile is very beutiful,so dont forget to smile✨" },
   { url: photo2, message: "You're more precious than gold,Nb:ante ummakkm upppaakm so be happy☺️ 💫" },
-  { url: photo3, message: "I value every single moment with you shaaru 📖" },
+  { url: photo3, message: "payment llooode ank kittyalle cheetha kett thudakkavm 😅 ndhaaylm thanks mol📖" },
   { url: photo4, message: "All the things about you make you who you are, and it's all beautiful. ellom angne nne nikkanm and thats you 💃" },
   { url: photo1, message: " pinne eee paripaadi okke inki aadhyayitta, ank ishtapedunn vijaarikkinn, pore  pothe🌹" },
 ];
@@ -53,9 +53,9 @@ const Index = () => {
       <section className="relative z-20 flex flex-col items-center justify-center min-h-screen px-4 py-8 snap-start">
         
         {/* Title */}
-        <h1 className="text-5xl md:text-7xl text-primary mb-2 drop-shadow-lg animate-in fade-in slide-in-from-top duration-1000">
-          Happy Valentine's Day 
-        </h1>
+       <h1 className="text-3xl sm:text-4xl md:text-7xl text-primary mb-2 drop-shadow-lg animate-in fade-in slide-in-from-top duration-1000 text-center px-4">
+  Happy Valentine's Day 
+</h1>
         
         <p className="text-lg md:text-xl text-muted-foreground mb-8 animate-in fade-in duration-1000 delay-300">
           Sharu ❤️
@@ -191,7 +191,7 @@ const Index = () => {
         
         <div className="relative z-10 text-center px-4 max-w-2xl">
           <h2 className="text-4xl md:text-6xl text-white font-serif italic mb-4 drop-shadow-2xl">
-           Through Thick & Thin
+           Thanks for All mr sharu
           </h2>
           <div className="w-24 h-1 bg-primary mx-auto mb-6 rounded-full" />
           <p className="text-white/90 text-lg md:text-xl leading-relaxed drop-shadow-md">
@@ -217,8 +217,7 @@ const Index = () => {
           </h2>
           <div className="w-24 h-1 bg-primary mx-auto mb-6 rounded-full" />
           <p className="text-white/90 text-lg md:text-xl leading-relaxed drop-shadow-md">
-             "They say good friends are hard to find, but you clearly hit the jackpot. 
-  Thanks for being the most genuine person I know and for always keeping it real with me."
+             "hey i just keep distance for your sake oke mool,and engand nalla cring aaaayille 😅 "
           
           </p>
         </div>
