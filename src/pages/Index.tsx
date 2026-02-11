@@ -182,7 +182,7 @@ const Index = () => {
       </section>
        
       {/* last */}
-       {/* <section className="relative h-screen w-full snap-start overflow-hidden bg-black flex items-center justify-center">
+       <section className="relative h-screen w-full snap-start overflow-hidden bg-black flex items-center justify-center">
         <img 
           src={photo4} 
           alt="Full Size Surprise" 
@@ -201,7 +201,7 @@ const Index = () => {
         </div>
 
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/40 pointer-events-none" />
-      </section> */}
+      </section>
        <section className="relative h-screen w-full snap-start overflow-hidden bg-black flex items-center justify-center">
         {/* Background Full Image */}
         <img 
