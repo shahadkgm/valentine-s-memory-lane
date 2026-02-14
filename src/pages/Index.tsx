@@ -58,7 +58,7 @@ const Index = () => {
 </h1>
         
         <p className="text-lg md:text-xl text-muted-foreground mb-8 animate-in fade-in duration-1000 delay-300">
-          Sharhana ❤️
+          Sharu ❤️
         </p>
         
         {/* Main Photo */}
@@ -143,15 +143,15 @@ const Index = () => {
         />
         
         {/* Overlay Text */}
-        {/* <div className="relative z-10 text-center px-4 max-w-2xl">
+        <div className="relative z-10 text-center px-4 max-w-2xl">
           <h2 className="text-4xl md:text-6xl text-white font-serif italic mb-4 drop-shadow-2xl">
             Forever & Always
           </h2>
           <div className="w-24 h-1 bg-primary mx-auto mb-6 rounded-full" />
           <p className="text-white/90 text-lg md:text-xl leading-relaxed drop-shadow-md">
-           "Life’s a lot easier when you have a friend like you to share it with. Thanks for the endless laughs and for always matching my energy, no matter how chaotic things get!"
+           "Life’s a lot easier when i have a friend like you to share it with. Thanks for the endless laughs and for always matching my energy, no matter how chaotic things get!"
           </p>
-        </div> */}
+        </div>
 
         {/* Gradient Overlay for better text readability */}
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/40 pointer-events-none" />
@@ -166,7 +166,7 @@ const Index = () => {
         />
         
         {/* Overlay Text */}
-        {/* <div className="relative z-10 text-center px-4 max-w-2xl">
+        <div className="relative z-10 text-center px-4 max-w-2xl">
           <h2 className="text-4xl md:text-6xl text-white font-serif italic mb-4 drop-shadow-2xl">
              One  & Only
           </h2>
@@ -175,7 +175,7 @@ const Index = () => {
             "From all the random laughs to the deep talks, there’s never a dull moment with you. 
   Thanks for being the one I can always count on for a good time and even better memories."
           </p>
-        </div> */}
+        </div>
 
         {/* Gradient Overlay for better text readability */}
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/40 pointer-events-none" />
@@ -189,7 +189,7 @@ const Index = () => {
           className="absolute inset-0 w-full h-full object-cover opacity-70 transition-transform duration-[2000ms] hover:scale-105"
         />
         
-        {/* <div className="relative z-10 text-center px-4 max-w-2xl">
+        <div className="relative z-10 text-center px-4 max-w-2xl">
           <h2 className="text-4xl md:text-6xl text-white font-serif italic mb-4 drop-shadow-2xl">
            Thanks for All mr sharu
           </h2>
@@ -198,7 +198,7 @@ const Index = () => {
             "They say good friends are hard to find, but I clearly hit the jackpot. 
   Thanks for being the most genuine person I know and for always keeping it real with me."
           </p>
-        </div> */}
+        </div>
 
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/40 pointer-events-none" />
       </section>
@@ -217,7 +217,7 @@ const Index = () => {
           </h2>
           <div className="w-24 h-1 bg-primary mx-auto mb-6 rounded-full" />
           <p className="text-white/90 text-lg md:text-xl leading-relaxed drop-shadow-md">
-             {/* "hey i just keep distance for your sake oke mool,and engand nalla cring aaaayille 😅 " */}
+              "hey i just keep distance for your sake oke mool,and engand nalla cring aaaayille 😅 " 
              "idh vare onnm aarum thanneella paranj neloolichooond  😅  "
           
           </p>
