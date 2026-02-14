@@ -6,7 +6,7 @@ interface MusicPlayerProps {
   audioSrc?: string;
 }
 const BASE_PATH = import.meta.env.BASE_URL;
-const MusicPlayer = ({ audioSrc = `${BASE_PATH}rab-rakha.mp3` }: MusicPlayerProps) => {
+const MusicPlayer = ({ audioSrc = `${BASE_PATH}rab-rakha1.mp3` }: MusicPlayerProps) => {
 
   const [isPlaying, setIsPlaying] = useState(false);
   const [isMuted, setIsMuted] = useState(false);
